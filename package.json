@@ -4,5 +4,13 @@
   "main": "index.js",
   "repository": "https://github.com/Suto-Michimasa/truffle_tutorial.git",
   "author": "Suto <sutou1335michimasa@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "build": "truffle compile",
+    "migrate": "truffle migrate",
+    "start": "ganache"
+  },
+  "devDependencies": {
+    "ganache": "^7.5.0"
+  }
 }
